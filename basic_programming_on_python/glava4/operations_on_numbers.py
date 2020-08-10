@@ -1,0 +1,12 @@
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+
+print("Ваши числа:", a, "и", b)
+print(a, "+", b, "=", a+b, sep="", end=" ")
+print(a, "-", b, "=", a-b, sep="", end=" ")
+print(a, "/", b, "=", a/b, sep="", end=" ")
+print("(", a, "-", b, ")/2", "=", (a+b)/2, sep="")
+print("Сумма:", a+b)
+print("Разность:", a-b)
+print("Частное:", a/b)
+print("Среднее:", (a+b)/2)
